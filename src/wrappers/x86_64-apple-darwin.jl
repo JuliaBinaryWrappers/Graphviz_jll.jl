@@ -5,6 +5,13 @@ using Cairo_jll
 using Expat_jll
 using Pango_jll
 JLLWrappers.@generate_wrapper_header("Graphviz")
+JLLWrappers.@declare_library_product(libcdt, "@rpath/libcdt.5.dylib")
+JLLWrappers.@declare_library_product(libcgraph, "@rpath/libcgraph.6.dylib")
+JLLWrappers.@declare_library_product(libgvc, "@rpath/libgvc.6.dylib")
+JLLWrappers.@declare_library_product(libgvpr, "@rpath/libgvpr.2.dylib")
+JLLWrappers.@declare_library_product(liblab_gamut, "@rpath/liblab_gamut.1.dylib")
+JLLWrappers.@declare_library_product(libpathplan, "@rpath/libpathplan.4.dylib")
+JLLWrappers.@declare_library_product(libxdot, "@rpath/libxdot.4.dylib")
 JLLWrappers.@declare_executable_product(acyclic)
 JLLWrappers.@declare_executable_product(bcomps)
 JLLWrappers.@declare_executable_product(ccomps)
@@ -28,13 +35,6 @@ JLLWrappers.@declare_executable_product(gvpack)
 JLLWrappers.@declare_executable_product(gvpr)
 JLLWrappers.@declare_executable_product(gxl2dot)
 JLLWrappers.@declare_executable_product(gxl2gv)
-JLLWrappers.@declare_library_product(libcdt, "@rpath/libcdt.5.dylib")
-JLLWrappers.@declare_library_product(libcgraph, "@rpath/libcgraph.6.dylib")
-JLLWrappers.@declare_library_product(libgvc, "@rpath/libgvc.6.dylib")
-JLLWrappers.@declare_library_product(libgvpr, "@rpath/libgvpr.2.dylib")
-JLLWrappers.@declare_library_product(liblab_gamut, "@rpath/liblab_gamut.1.dylib")
-JLLWrappers.@declare_library_product(libpathplan, "@rpath/libpathplan.4.dylib")
-JLLWrappers.@declare_library_product(libxdot, "@rpath/libxdot.4.dylib")
 JLLWrappers.@declare_executable_product(mm2gv)
 JLLWrappers.@declare_executable_product(neato)
 JLLWrappers.@declare_executable_product(nop)
@@ -48,6 +48,48 @@ JLLWrappers.@declare_executable_product(twopi)
 JLLWrappers.@declare_executable_product(unflatten)
 function __init__()
     JLLWrappers.@generate_init_header(Cairo_jll, Expat_jll, Pango_jll)
+    JLLWrappers.@init_library_product(
+        libcdt,
+        "lib/libcdt.5.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libcgraph,
+        "lib/libcgraph.6.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libgvc,
+        "lib/libgvc.6.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libgvpr,
+        "lib/libgvpr.2.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        liblab_gamut,
+        "lib/liblab_gamut.1.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libpathplan,
+        "lib/libpathplan.4.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libxdot,
+        "lib/libxdot.4.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         acyclic,
         "bin/acyclic",
@@ -161,48 +203,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         gxl2gv,
         "bin/gxl2gv",
-    )
-
-    JLLWrappers.@init_library_product(
-        libcdt,
-        "lib/libcdt.5.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libcgraph,
-        "lib/libcgraph.6.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libgvc,
-        "lib/libgvc.6.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libgvpr,
-        "lib/libgvpr.2.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        liblab_gamut,
-        "lib/liblab_gamut.1.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libpathplan,
-        "lib/libpathplan.4.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libxdot,
-        "lib/libxdot.4.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(

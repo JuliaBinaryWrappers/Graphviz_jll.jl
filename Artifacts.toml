@@ -1,236 +1,244 @@
 [[Graphviz]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b43af1cde5a89030b4f2f1c3138b70427560f2ef"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "282c28afb005235d30723b99b4eb806379de3fde6d13fc8a8ee06eec4a2912c5"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.aarch64-linux-gnu-cxx03.tar.gz"
-[[Graphviz]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6c5b4470553f6b43515da763559af96ed27ad5a5"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "5f496048462b78ce773f0a7b06c654682f9a08924f603b2411cda79a1d25822f"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.aarch64-linux-gnu-cxx11.tar.gz"
-[[Graphviz]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6172944f50400ac656ac259c4878bbfee9d57efc"
-libc = "musl"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "ed8dbbb97642bb03c7bf9921ab670c80bc56852619c7ee68782e361c7a571442"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.aarch64-linux-musl-cxx03.tar.gz"
-[[Graphviz]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2f401889a081a0aabd512038d751bea7e4688f5d"
-libc = "musl"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "2a7c472be91efc88e45b93060bcbedfc9e3afbb754e4bc81e98fb0f908aa8617"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.aarch64-linux-musl-cxx11.tar.gz"
-[[Graphviz]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "82802b8b65050adc51137075aedc8624a131f88c"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "7b5058724f0ebb81f312474cfa08dd086bc733f6f8782f0d1f0953dc22c3c9c9"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[Graphviz]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e322feb88a5515a0201343d10afa21097ae47fed"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "b13b0e587eef98545350583798abf1e064409d10af5158aa1300eeeda716f9c9"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[Graphviz]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "775dd4c4ef91166aff04c0d277621a188e552d39"
-libc = "musl"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "17b2a089f3d9e906cd13a717c3dca466db58176d870639b34941624b991347d7"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[Graphviz]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "745ab5426317c54607e0a722d5d177acec8a7719"
-libc = "musl"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "13699d086ae01e76ff9dd3adcbbe3b23a4c66c96a5f142d34115a1b67f5821f0"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[Graphviz]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a3f03ed2ab57ff051bcfe40ea06a84c74cb5629a"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "1392630d4d22cf4bbdd2ca831b18032251b1bea20fd41c2429217d373167e4dd"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.i686-linux-gnu-cxx03.tar.gz"
-[[Graphviz]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b5718701c17da1b19b316a7c491d38bcd9e3fa3b"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "43a4cfe8596a42555ed374d3874dd4f95b83cce6132be1f0dc691f208ed2d86f"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.i686-linux-gnu-cxx11.tar.gz"
-[[Graphviz]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "99eee9cc2d44e8558d0a5c3a6482a22e7664b317"
-libc = "musl"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "b62a409599f2d243cd26b11c106de1181ac463ad095fe77d9e31a0dfb7659060"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.i686-linux-musl-cxx03.tar.gz"
-[[Graphviz]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "051e90700f9ea4ef07e0a01f3c59fe7813d6615b"
-libc = "musl"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "50580316a36dadefe91fe4b9cbfe401c7465daad75f344d7bbfa4e7386f8e18c"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.i686-linux-musl-cxx11.tar.gz"
-[[Graphviz]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4c4a6c5b234b68b056c47430ef39f7da4479a2c9"
-os = "windows"
-
-    [[Graphviz.download]]
-    sha256 = "c2bc11c7fc7a735d3e3cc0aa4341e142e9f70133e0c76f256d7b5fec3aba2dd9"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.i686-w64-mingw32-cxx03.tar.gz"
-[[Graphviz]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4586456083ae8d0667a333b744693d6530dd7ebd"
-os = "windows"
-
-    [[Graphviz.download]]
-    sha256 = "76e0cae182ee0ccc05541ff03a07e51f7c458e62a8bdcc04ac454c421947a811"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.i686-w64-mingw32-cxx11.tar.gz"
-[[Graphviz]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ddcdfe22cfd91fac3c8231112f5d0bcaf80bd518"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "24e14d6b142b46510a99fb18687ae9149539d1da7e2daa222c4651b3dd01a6f4"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[Graphviz]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "845a6b41b25a4f7f6051fd173c3c500f1666112a"
-libc = "glibc"
-os = "linux"
-
-    [[Graphviz.download]]
-    sha256 = "febf85bff16fd3005fc98f97e5eb4a3024974382d89cdba4c8f4a76db713fe76"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[Graphviz]]
-arch = "x86_64"
-git-tree-sha1 = "ffcec4063cae3cfeb2fa393c189bd860a2be043d"
+git-tree-sha1 = "a139010dda067b4970a3d2c90cb05fe3659defe7"
 os = "macos"
 
     [[Graphviz.download]]
-    sha256 = "23cd0832989e49a60a181a460eadb49a276944bc582bc7cfae42d95eeee6591c"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-apple-darwin.tar.gz"
+    sha256 = "360c88a39ad84b9419c6a03fbfd6d5e2ec6a9cb57df84f71bc1a0b143a2f2f76"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.aarch64-apple-darwin.tar.gz"
 [[Graphviz]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "0cd6ed4ea1d597147a682b88b98ce3edf8accf9d"
+git-tree-sha1 = "dfb75e2d0e393ff0c4b2351f2a40e4e133924a55"
 libc = "glibc"
 os = "linux"
 
     [[Graphviz.download]]
-    sha256 = "1464d2ecbff6515b539c39180adaeb85946497295676616ab03576c2eb1dbe2b"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "bb52f3a19c5abe47ee04f2cf7ef2b197d3c76859871d70d38607ad35c8b9bfc6"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[Graphviz]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4459f3970c13531d2e370ffa9941e3d08b00f890"
+git-tree-sha1 = "275e51c8ef13a06e61efc8fa8533d30e8e248db1"
 libc = "glibc"
 os = "linux"
 
     [[Graphviz.download]]
-    sha256 = "7724216d6b72267aead68b90ef2e784e72a917c259e70f4b729dfbb350ef8725"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "3a9dddf5331ecc2de068a625195689ed15c489a095075ce62d24d1af4c0cbcf2"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[Graphviz]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6350a64b2d1bd35a3c4ad3d41d502f09daded3fc"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "f50477e69517bc15f4a4607dd71beee187678325672120dc96090b4c4da4165b"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.aarch64-linux-musl-cxx03.tar.gz"
+[[Graphviz]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "19bfb0dc07040289c9eed032eeeda0c25ec06a3c"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "3c15f0e2342afacfa6acdab4c6ff749f560e294f81a7d9d8cb2c5b2ba08189ab"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.aarch64-linux-musl-cxx11.tar.gz"
+[[Graphviz]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "42810ce9f5598e6b25fb8e8fb5c8e7df6ae351e9"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "c4cfaf9153ab91c94f336467566cc7daf90dacfe83d5684b127d92536676477b"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Graphviz]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b29a94b07f3475dd876d809492c32ea1003fbe99"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "f770b7565ba426a17e7e123fa9d55867994c756410cdfc4f2f83b9aa784a04f0"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Graphviz]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7bac8169cf64e51074b24c2b53a4150207aebec9"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "6a64c31bc668e060b869a5123bb1e13bcde4bc8bea234bf96f4d1b8a7f487d76"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[Graphviz]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f50a74e67c981597285d7aa308a227625e9869d9"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "154ed4c295e91044f8c7e8b366b1848fcd9125df2284738efa883706a8df7d8a"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[Graphviz]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "29c8bef3266e77cdf82faf7845bbaa9d6603cc48"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "3f0bab50b474a0e1207a79401b5c8625d2c90a54afbbd9f521c8fe333fb78f88"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.i686-linux-gnu-cxx03.tar.gz"
+[[Graphviz]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cccdcf1d90b59ea0f8be6e21efeb9cbbb6ee3407"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "10a6ea69049dc34473225db7339ab8fafc16cd4a191c67dd58ce885bb9d3ee00"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.i686-linux-gnu-cxx11.tar.gz"
+[[Graphviz]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d8fa43a57d213dc40d8513e4cdb27e527643347c"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "10197ebc243a8a26ff842f8f1f938f47877e3546346b91b336d473feb024e39b"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.i686-linux-musl-cxx03.tar.gz"
+[[Graphviz]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0ded082996f53edc409443a67f1320ea3ffe727f"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "f149b9ecd2d67f9f547cd6553a096bfef3c65f3402a00b47453c2f8f17041d70"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.i686-linux-musl-cxx11.tar.gz"
+[[Graphviz]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5f93120989d9791801fbd6e479e7124dc4b19655"
+os = "windows"
+
+    [[Graphviz.download]]
+    sha256 = "4d608fa5a4f71d429c1908f00994352b97bf17a398185b161a088997c80c5372"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.i686-w64-mingw32-cxx03.tar.gz"
+[[Graphviz]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1d35c0dbfc4f5d6dae4d213af3b4a3d88e45d7c6"
+os = "windows"
+
+    [[Graphviz.download]]
+    sha256 = "883500d3c321e10874908fc82e8566cece3d9cbebb366129efb42f6e523cdfda"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.i686-w64-mingw32-cxx11.tar.gz"
+[[Graphviz]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1090f7ef2f0c022cfe7457aa2dd6ea2f22ebdda9"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "dbac6384dba1b10aa08b71665724a70e2ef226b42c047d6467f5e43b91d92249"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Graphviz]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "29ba8feaf9b3c5c8f566364f195f71cf16a66487"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "2bbbff94f3ad9572fce2b0ab1b5df5d6012a92b29bba48b429e68ce42d87a4ce"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[Graphviz]]
+arch = "x86_64"
+git-tree-sha1 = "c370e1c3fc991c5346c0d24aa6d423645cce6369"
+os = "macos"
+
+    [[Graphviz.download]]
+    sha256 = "9cfcd4b3f9a34ff31d91c48e81c4f29d098a08a71e7282e03117ada7bc51792d"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-apple-darwin.tar.gz"
 [[Graphviz]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "12ef4a0fb0b20542ed5d399a20afd8eedf4f7705"
-libc = "musl"
+git-tree-sha1 = "3d5a66d95716d67f5730758437e31c5bbfd2490e"
+libc = "glibc"
 os = "linux"
 
     [[Graphviz.download]]
-    sha256 = "1c23c0188f8d93c89ad9d5d4389880b4a99fab5dd5858a8c5f528f73cb74bc01"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "744a4aa0812b9e91b5147f2f44a69e97e3a0d749ff8199ac52ca83912f0425b4"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[Graphviz]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8b8bb342749febc3ce0991e588539fb08ebc608b"
+git-tree-sha1 = "d537ab3e58dc1cb671e3c31453c94a7812fc041a"
+libc = "glibc"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "1aac3145a7d9b5b5872976f5bb0bb7ef413c971d62cc808c7c102b70fe99298b"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[Graphviz]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "872ce01aa15fdbcfde75db48c440d86dfbd261d4"
 libc = "musl"
 os = "linux"
 
     [[Graphviz.download]]
-    sha256 = "986827a96d94bb184f2271882265b69c85b18f3eb3959a3ab10f0a1bff701cc9"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "bab96ff5389ea4eedefa64e14efd3d9d9a557384fa56409f39c0f922b56d4915"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-linux-musl-cxx03.tar.gz"
 [[Graphviz]]
 arch = "x86_64"
-git-tree-sha1 = "15875e23603310efaadbdb22130eba77a5fe6d96"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "30a7e122e56d824548f3f1557f3de6b13d543b2e"
+libc = "musl"
+os = "linux"
+
+    [[Graphviz.download]]
+    sha256 = "5fb52eaacfeb5ca0e347749ce4c07e5806f1652238f4669e0d3b5bc930085791"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-linux-musl-cxx11.tar.gz"
+[[Graphviz]]
+arch = "x86_64"
+git-tree-sha1 = "9b5711615ae3e951aba2561fbe8de2b814a3d65b"
 os = "freebsd"
 
     [[Graphviz.download]]
-    sha256 = "76b25cf1de0b8ef313973f576848a2cf25afb1336d5f19e18bf63652e639c491"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "245fbc865f24435521544ff51938acd5c0a79ecd483c6472d27a1ac21393a310"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-unknown-freebsd.tar.gz"
 [[Graphviz]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "85adb246c58ed64fd2a515869ee8d694cfbeb7d7"
+git-tree-sha1 = "859d50a9cf12e80859afca4a2eca21a5a8438c4e"
 os = "windows"
 
     [[Graphviz.download]]
-    sha256 = "d37de7a40a83642373f272a8dd3d0c01afe74e0b32c7208e28c8399680fb413d"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "4b3f31b51153a876ab88a4fe7b52b483cb9997e9ec630c9fcf0a3381de01458c"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[Graphviz]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "21263d61dc2fdcf7b2d2102a99e4a6cd4438f277"
+git-tree-sha1 = "fe953b243052d917a40d9958573bc8f76632260d"
 os = "windows"
 
     [[Graphviz.download]]
-    sha256 = "f7819715bf673036168d8f72834846b8324dee879e31c7d3a8dde3e317a72de8"
-    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.49.3+1/Graphviz.v2.49.3.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "9099e229765e16c776981b632b6ecaf66c17ba59274ea09301a61d392e87b478"
+    url = "https://github.com/JuliaBinaryWrappers/Graphviz_jll.jl/releases/download/Graphviz-v2.50.0+0/Graphviz.v2.50.0.x86_64-w64-mingw32-cxx11.tar.gz"
